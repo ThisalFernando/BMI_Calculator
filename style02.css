@@ -1,0 +1,128 @@
+body{
+    font-family: arial;
+    text-align: center;
+    margin: 0 0 0 0;
+    background-image: url("Images/bgImage.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(0, 2, 58);
+    color: white;
+}
+
+.navBar h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container01{
+    text-align: center;
+}
+
+.container01 h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.container02{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 500px #3f3f3f2a;
+    background-color: rgb(193, 236, 255);
+    width:500px;
+    display: none;
+    position: fixed;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    color: blue;
+}
+
+hr{
+    border-color: blue;
+    opacity: .2;
+    width: 410px;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+#height, #weight, #radius, #volume{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0 0 10px #3f3f3f2a;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 410px;
+    font-weight: bold;
+    font-size: medium;
+    box-shadow: 0 0 10px #3f3f3fca;
+}
+
+#close{
+    background-color: red;
+}
+
+#cal{
+    margin-top: 20px;
+}
+
+button:hover{
+    /*background-color: white;*/
+    opacity: .6;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(0, 2, 58);
+    color: white;
+    margin-top: 202px;
+}
+
+.footer h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LH | BMI Calculator</title>
+    <link rel="icon" type="image/x-icon" href="Images/TabLogo.png">
+    <link rel="stylesheet" href="style02.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.2/dist/sweetalert2.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.2/dist/sweetalert2.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navBar">
+            <img src="Images/TabLogo.png">
+            <h3>LEESONS HOSPITALS - BMI CALCULATOR</h3>
+    </div>
+    <div class="container01">
+        <div>
+            <h1>FIND YOUR BMI VALUE</h1>
+        </div>
+        <div>
+            <p>
+                BMI is a calculated measure of a person's body weight (in kilograms) divided by the square of their height (in meters). <br>
+                Although BMI does not directly measure body fat, <br>BMI is moderately to strongly associated with other measures that capture the amount, <br>location, and distribution of body fat.
+            </p>
+        </div>    
+        <div>
+            <button class="open-button" onclick="openForm()">View BMI Calculator</button>
+        </div>
+    </div>
+    <div class="formBody">
+        <div class="container02" id="formContainer">
+            <img src="Images/divLogo.png">
+            <h1>BMI Calculator</h1>
+            <hr>
+            <h5>Please enter your height and width below</h5><br>
+            <form id="formBMI">
+                <div>
+                    <label for="height">Height (cm)</label><br>
+                    <input type="number" step="0.01" name="height", id="height" placeholder="Enter height in CM">
+                </div>
+    
+                <div>
+                    <label for="weight">Weight (kg)</label><br>
+                    <input type="number" step="0.01" name="weight" id="weight" placeholder="Enter weight in KG">
+                </div><br>
+    
+                <div>
+                    <button id="cal" type="submit">Calculate</button>
+                </div>
+    
+                <div>
+                    <button id="reset" type="reset" onclick="isClear()">Clear</button>
+                </div>
+                
+                <div>
+                    <br>
+                    <h3 id="result"></h3>
+                </div>
+
+            </form>
+            <div>
+                <button id="close" class="close" onclick="closeForm()">Close BMI Calculator</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h5>Copyright © 2024 LeesonsHospitals | All rights reserved. | Powered by <a href="">Flexwalkers</a></h5>
+    </div>
+    
+
+    <script src="main02.js"></script>
+</body>
+</html>
